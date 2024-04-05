@@ -30,4 +30,16 @@ public class CashbackHackServiceTest {
         Assertions.assertEquals(expected,actual);
     }
 
+    @Test
+    public void shoulFallDueToInaccuracyInTheCode(){
+        CashbackHackService service = new CashbackHackService();
+
+        int amount = 1000;
+
+        int actual = service.remain(amount);
+        int expected = 0;
+
+        Assertions.assertEquals(expected, actual);
+    }
+
 }
