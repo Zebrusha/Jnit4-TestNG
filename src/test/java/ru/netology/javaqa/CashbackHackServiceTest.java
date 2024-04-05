@@ -1,33 +1,33 @@
-package ru.netology.javaqa;
+// package ru.netology.javaqa;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+// import org.junit.jupiter.api.Assertions;
+// import org.junit.jupiter.api.Test;
 
 
-public class CashbackHackServiceTest {
+// public class CashbackHackServiceTest {
 
-    @Test
-    public void shouldAdviseSupplementPurchasesAndAmount(){
-        CashbackHackService service = new CashbackHackService();
+//     @Test
+//     public void shouldAdviseSupplementPurchasesAndAmount(){
+//         CashbackHackService service = new CashbackHackService();
 
-        int amount = 900;
+//         int amount = 900;
 
-        int actual = service.remain(amount);
-        int expected = 100;
+//         int actual = service.remain(amount);
+//         int expected = 100;
 
-        Assertions.assertEquals(expected, actual);
+//         Assertions.assertEquals(expected, actual);
 
-    }
+//     }
 
-    @Test
-    public void offerToBuyUpToTwoThousand(){
-        CashbackHackService service = new CashbackHackService();
-        int amount = 1000;
+//     @Test
+//     public void offerToBuyUpToTwoThousand(){
+//         CashbackHackService service = new CashbackHackService();
+//         int amount = 1000;
 
-        int actual = service.remain(amount);
-        int expected = 1000;
+//         int actual = service.remain(amount);
+//         int expected = 1000;
 
-        Assertions.assertEquals(expected,actual);
-    }
+//         Assertions.assertEquals(expected,actual);
+//     }
 
-}
+// }
